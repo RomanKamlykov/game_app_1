@@ -1,0 +1,17 @@
+#gameField {
+    margin: 5px;
+    float: left;
+    display: grid;
+    /* grid-template-columns: repeat(?, 1fr); */
+    grid-gap: 5px;
+}
+
+#gameField div {
+    border: 2px solid LightGray;
+    border-radius: 5px;
+}
+
+#gameField div img {
+    opacity: 0.0;
+    transition: opacity 0.5s;
+}
